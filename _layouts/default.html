@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Katherine Donnally Designs Things</title>
+
+    {% capture fulltitle %}
+      {% if page.title %}{{ page.title | escape | append: " | Katherine Donnally Designs Things" }}{% else %}{{ site.title | escape }}{% endif %}
+    {% endcapture %}
+
+    <title>{{ fulltitle }}</title>
     <!--meta name="author" content="name">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here"-->

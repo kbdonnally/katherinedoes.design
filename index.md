@@ -1,6 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+# Portfolio Homepage
+
+## Contact
+
+- Contact info stuff
+- Goes here
+
+## About
+
+- What I care about
+- What I'm good at
+
+## See my work
+
+- Link to project page
+- Hire me!

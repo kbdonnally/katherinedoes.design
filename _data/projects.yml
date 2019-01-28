@@ -1,0 +1,50 @@
+# Portfolio project data
+
+- name: Take Back the Archive
+  order: 4
+  date: Summer/Fall 2017
+  role: Web design - administrative timeline, collections page, item detail page
+  description: _PLACEHOLDER_
+  creators:
+    - _NAME_
+  link: http://takeback.scholarslab.org
+  folder: takeback
+  github:
+    - https://github.com/scholarslab/takeback
+    - https://github.com/kbdonnally/TBTA-timeline
+
+- name: Mapping Lowell
+  order: 2
+  date: Spring/Summer 2018
+  role: Web design - menu, homepage, *Mapping Lowell* exhibit
+  description: _PLACEHOLDER_
+  creators:
+    - Michael Millner
+  link: http://mappinglowell.net
+  folder: lowell
+  github:
+    - https://github.com/kbdonnally/mapping-lowell
+
+- name: Scholars' Lab
+  order: 1
+  date: Spring/Summer 2018
+  role: Lead designer & information architect on ground-up redesign of organization website
+  description: _PLACEHOLDER_
+  creators:
+    - _NAME_
+  link: http://scholarslab.org
+  folder: slab.org
+  github:
+    - https://github.com/scholarslab/scholarslab.org
+
+- name: Puzzle Poesis
+  order: 3
+  date: Fall 2018
+  role: Web design - interactive Tetris-style top menu
+  description: _PLACEHOLDER_
+  creators:
+    - _NAME_
+  link: http://bpasanek.github.io/puzzlepoesis
+  folder: puzzle
+  github:
+    - https://github.com/bpasanek/puzzlepoesis

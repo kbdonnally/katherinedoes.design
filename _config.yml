@@ -1,43 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+# 1. metadata
+title: Portfolio
+baseurl: "/portfolio-1"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
-# Build settings
+description: >- 
+  Jekyll website corresponding to `portfolio` repo's docs
+  & planning.
+
+# 2. build settings
+incremental: true
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache
+  # - _assets
+  - Gemfile
+  - Gemfile.lock
+  # - gulpfile.js
+  - assets/python
+  - docs
+  - node_modules
+  - vendor
+
+permalink: /:year/:month/:day/:title/
+
+collections_dir: collections
+
+# example setup
+# collections:
+#  collection-name:
+#    output: true
+#    permalink: /:collection/:slug/
+
+# 3. assets
+sass:
+  sass_dir: "assets/css/_sass"
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "pages"
+    values:
+      order: 10
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# defaults explained:
+# 1. static images are in assets/img/*
+# 2. by default, any pages/* document has
+#    'order' var of value '10'
+# 3. all pages have default layout unless
+#    otherwise specified

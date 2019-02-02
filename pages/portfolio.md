@@ -13,10 +13,11 @@ A selection of projects.
 
 {% for project in projects %}
 <!-- metadata: -->
-## {{ project.name }}
+## [{{ project.name }}]({{ project.link }})
 *{{ project.date }}*
 - Role: {{ project.role }}
 - [Link to project]({{ project.link }})
+- {{ project.description }}
 
 <!-- pics: -->
 {% for pic in pics %}

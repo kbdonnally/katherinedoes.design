@@ -4,10 +4,18 @@
   order: 4
   date: Summer/Fall 2017
   role: Web design - administrative timeline, collections page, item detail page
-  description: _PLACEHOLDER_
+  description: >-
+    Take Back the Archive is a public history project to
+    preserve, visualize, and contextualize the history of
+    rape and sexual violence at the University of Virginia.
   creators:
-    - _NAME_
+    - Lisa Goff
+    - UVA Institute for Public History
   link: http://takeback.scholarslab.org
+  urls:
+    - main: http://takeback.scholarslab.org
+    - timeline: http://takeback.scholarslab.org/administrative-timeline/
+    - collection: http://takeback.scholarslab.org/collections/show/12 # example collection
   folder: takeback
   github:
     - https://github.com/scholarslab/takeback
@@ -17,10 +25,16 @@
   order: 2
   date: Spring/Summer 2018
   role: Web design - menu, homepage, *Mapping Lowell* exhibit
-  description: _PLACEHOLDER_
+  description: >-
+    The *Historical Atlas of Lowell* maps the economic,
+    political, social, and cultural history of Lowell,
+    Massachusetts.
   creators:
     - Michael Millner
   link: http://mappinglowell.net
+  urls:
+    - main: http://mappinglowell.net
+    - collection: http://mappinglowell.net/neatline/show/following-the-money
   folder: lowell
   github:
     - https://github.com/kbdonnally/mapping-lowell
@@ -29,11 +43,13 @@
   order: 1
   date: Spring/Summer 2018
   role: Lead designer & information architect on ground-up redesign of organization website
-  description: _PLACEHOLDER_
+  description: >-
+    The Scholars' Lab is UVA Library's community lab for the
+    practice of experimental scholarship.
   creators:
-    - _NAME_
+    - The Scholars' Lab
   link: http://scholarslab.org
-  folder: slab.org
+  folder: slabdotorg
   github:
     - https://github.com/scholarslab/scholarslab.org
 
@@ -41,9 +57,13 @@
   order: 3
   date: Fall 2018
   role: Web design - interactive Tetris-style top menu
-  description: _PLACEHOLDER_
+  description: >-
+    UVa's Puzzle Poetry working group aims to treat poems as
+    puzzles, isolate the substance of prosody, and apprehend
+    shape as a medium.
   creators:
-    - _NAME_
+    - Bradley Pasanek
+    - Neal Curtis
   link: http://bpasanek.github.io/puzzlepoesis
   folder: puzzle
   github:

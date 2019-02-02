@@ -46,27 +46,62 @@
 /* Images: */
 
 .proj-item__pics {
-
+	position: relative;
 }
 
+// div
 .proj-pics__arrow--left {
-
+	left: 0;
 }
 
+// div
 .proj-pics__arrow--right {
-
+	right: 0;
 }
 
+[class*='proj-pics__arrow'] {
+	position: absolute;
+}
+
+// ul, pic list wrapper
 .proj-pics__pics-wrapper {
-
+	position: relative;
+	display: flex;
+	flex-flow: row wrap; // delete later
+	padding-left: 0;
+	list-style-type: none;
 }
 
+// li, pic + caption
 .proj-pics__pic {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	img {
 
+	}
+	// caption
+	span {
+
+	}
 }
 
 /* Metadata: */
 
+// ul
 .proj-item__metadata {
-
+	padding-left: 0;
+	li {
+		position: relative;
+		display: flex; // undo effect of <p> from markdownify filter
+		// label
+		span {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		// value
+		p {
+			padding-left: .5em;
+		}
+	}
 }

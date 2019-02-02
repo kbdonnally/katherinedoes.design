@@ -1,0 +1,41 @@
+---
+title: Projects HTML
+layout: default
+permalink: /projects/
+---
+
+<main class="page--projects">
+	<header class="projects-header">
+		<span class="proj-header__caption">A selection of</span>
+		<h1 class="proj-header__page-title">Projects</h1>
+	</header>
+
+	<main class="projects-gallery"> <!-- projects wrapper -->
+
+		<!-- for proj in projects -->
+		<section class="proj-gallery__item"> <!-- 1 project -->
+			<h2 class="proj-item__title"><a href="">Title</a></h2>
+			<p class="proj-item__date">Date</p>
+
+			<main class="proj-item__pics">
+				<div class="proj-pics__arrow--left"><<</div>
+				<div class="proj-pics__arrow--right">>></div>
+
+				<ul class="proj-pics__pics-wrapper">
+					<!-- for pic in pics -->
+					<li class="proj-pics__pic">
+						<img src="pic.png" alt="pic">
+						<span>Caption goes here</span>
+					</li>
+					<!-- endfor -->
+				</ul>
+			</main>
+
+			<ul class="proj-item__metadata">
+				<li><span>LABEL:</span> {{ value }}</li>
+				<!-- use for: role, creators, about -->
+			</ul>
+		</section> <!-- end item -->
+		<!-- endfor -->
+	</main> <!-- end gallery -->
+</main> <!-- end page content -->

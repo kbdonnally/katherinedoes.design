@@ -31,8 +31,24 @@ permalink: /home-html/
 		</section>
 
 		<!-- contact info: -->
+		{% assign contact = site.data.contact %}
 		<section class="home__contact">
 			{{ '## Contact me' | markdownify }}
+
+			<ul class="home-contact__list">
+				<li class="home-contact__item">
+					<img alt="Email icon" src="{{ 'assets/img/svg/envelope-outline-black.svg' | relative_url }}" height="30px">
+					<a href="{{ contact.email.url }}">{{ contact.email.username }}</a>
+				</li>
+				<li class="home-contact__item">
+					<img alt="Github icon" src="{{ 'assets/img/svg/github-black.svg' | relative_url }}" height="30px">
+					<a href="{{ contact.github.url }}">{{ contact.github.username }}</a>
+				</li>
+				<li class="home-contact__item">
+					<img alt="Twitter icon" src="{{ 'assets/img/svg/twitter-black.svg' | relative_url }}" height="30px">
+					<a href="{{ contact.twitter.url }}">{{ contact.twitter.username }}</a>
+				</li>
+			</ul>
 		</section>
 
 		<!-- resume link: -->

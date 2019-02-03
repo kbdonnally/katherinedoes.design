@@ -10,6 +10,13 @@
 
 .home-grid-wrapper {
 	position: relative;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-areas: 'h h h h h h'
+						 'b b b p p p'
+						 'a a a a a a'
+						 'c c c c r r'
+						 'e e e e e e';
 }
 
 // grid items
@@ -22,41 +29,41 @@
 /* Header: */
 
 .home__header {
-
+	grid-area: h;
 }
 
 /* Bio: */
 
 .home__bio {
-
+	grid-area: b;
 }
 
 /* Portfolio: */
 
 .home__portfolio {
-
+	grid-area: p;
 }
 
 /* Call to action: */
 
 .home__cta {
-
+	grid-area: a;
 }
 
 /* Contact: */
 
 .home__contact {
-
+	grid-area: c;
 }
 
 /* Resume link: */
 
 .home__resume {
-
+	grid-area: r;
 }
 
 /* Footer: */
 
 .home__footer {
-
+	grid-area: e; // e for end
 }

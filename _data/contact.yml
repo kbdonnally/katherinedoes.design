@@ -1,4 +1,10 @@
 # contact info
-email:   kbdonnally@gmail.com
-twitter: https://twitter.com/kbdonnally
-github:  https://github.com/kbdonnally
+email:
+  username: kbdonnally@gmail.com
+  url: 'mailto:kbdonnally@gmail.com'
+twitter:
+  username: '@kbdonnally'
+  url: https://twitter.com/kbdonnally
+github:
+  username: kbdonnally
+  url: https://github.com/kbdonnally

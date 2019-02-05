@@ -17,8 +17,8 @@ permalink: /image-data/
 {% if pic.path contains project.folder and pic.extname == '.png' %}
 ```
 - image: {{ pic.path | split: '/' | last }}
-  caption:
-  alt:
+  caption: none
+  alt: {{ project.name }} screengrab
 ```
 {% endif %}
 {% endfor %} <!-- end pics -->

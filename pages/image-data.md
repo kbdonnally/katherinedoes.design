@@ -12,12 +12,18 @@ permalink: /image-data/
 {% for project in projects %}
 ## {{ project.name }}
 
+`{{ project.folder }}:`
 {% for pic in pics %}
 {% if pic.path contains project.folder and pic.extname == '.png' %}
-- {{ pic.path | split: '/' | last }}
+```
+- image: {{ pic.path | split: '/' | last }}
+  caption:
+  alt:
+```
 {% endif %}
 {% endfor %} <!-- end pics -->
 
 {% endfor %} <!-- end project -->
 
 *Hell yeah, it works!!!*
+

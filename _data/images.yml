@@ -1,0 +1,77 @@
+# Image data for projects
+# Object names == folder names of screenshots
+# Folder names == property in project YAML
+
+slabdotorg:
+  - image: 1-home.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 2-mspace.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 3-mspacelist.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 4-spacetech.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 5-work.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 6-blog.png
+    caption: none
+    alt: Scholars' Lab screengrab
+  - image: 7-events.png
+    caption: none
+    alt: Scholars' Lab screengrab
+
+takeback:
+  - image: 1-admin.png
+    caption: none
+    alt: Take Back the Archive screengrab
+  - image: 2-tlplain.png
+    caption: none
+    alt: Take Back the Archive screengrab
+  - image: 3-tlclicked.png
+    caption: none
+    alt: Take Back the Archive screengrab
+  - image: 4-collxn.png
+    caption: none
+    alt: Take Back the Archive screengrab
+  - image: 5-stats.png
+    caption: none
+    alt: Take Back the Archive screengrab
+  - image: 6-gallery.png
+    caption: none
+    alt: Take Back the Archive screengrab
+
+lowell:
+  - image: 1-home.png
+    caption: none
+    alt: Mapping Lowell screengrab
+  - image: 2-map.png
+    caption: none
+    alt: Mapping Lowell screengrab
+  - image: 3-mapclicked.png
+    caption: none
+    alt: Mapping Lowell screengrab
+  - image: 4-text.png
+    caption: none
+    alt: Mapping Lowell screengrab
+
+puzzle:
+  - image: 1-bigplain.png
+    caption: none
+    alt: Puzzle Poesis screengrab
+  - image: 2-med1.png
+    caption: none
+    alt: Puzzle Poesis screengrab
+  - image: 3-med2.png
+    caption: none
+    alt: Puzzle Poesis screengrab
+  - image: 4-small1.png
+    caption: none
+    alt: Puzzle Poesis screengrab
+  - image: 4-small2.png
+    caption: none
+    alt: Puzzle Poesis screengrab

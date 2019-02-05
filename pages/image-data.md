@@ -6,7 +6,7 @@ permalink: /image-data/
 
 # Image Data
 
-{% assign projects = site.data.projects %}
+{% assign projects = site.data.projects | sort: 'order' %}
 {% assign pics = site.static_files | where: 'image', true %}
 
 {% for project in projects %}

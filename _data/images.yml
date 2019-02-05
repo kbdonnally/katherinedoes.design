@@ -5,73 +5,73 @@
 slabdotorg:
   - image: 1-home.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab homepage
   - image: 2-mspace.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab makerspace page
   - image: 3-mspacelist.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab makerspace inventory list
   - image: 4-spacetech.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab spatial tech page
   - image: 5-work.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab work page
   - image: 6-blog.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab blog
   - image: 7-events.png
     caption: none
-    alt: Scholars' Lab screengrab
+    alt: Scholars' Lab events page
 
 takeback:
   - image: 1-admin.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA administrative timeline landing page
   - image: 2-tlplain.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA administrative timeline
   - image: 3-tlclicked.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA administrative timeline - item focus
   - image: 4-collxn.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA collection landing page example
   - image: 5-stats.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA collection - statistics section
   - image: 6-gallery.png
     caption: none
-    alt: Take Back the Archive screengrab
+    alt: TBTA collection - gallery
 
 lowell:
   - image: 1-home.png
     caption: none
-    alt: Mapping Lowell screengrab
+    alt: Mapping Lowell homepage
   - image: 2-map.png
     caption: none
-    alt: Mapping Lowell screengrab
+    alt: Mapping Lowell exhibit
   - image: 3-mapclicked.png
     caption: none
-    alt: Mapping Lowell screengrab
+    alt: Mapping Lowell exhibit - item focus
   - image: 4-text.png
     caption: none
-    alt: Mapping Lowell screengrab
+    alt: Mapping Lowell homepage - text
 
 puzzle:
   - image: 1-bigplain.png
     caption: none
-    alt: Puzzle Poesis screengrab
+    alt: Puzzle Poesis full-size menu
   - image: 2-med1.png
     caption: none
-    alt: Puzzle Poesis screengrab
+    alt: Puzzle Poesis medium menu
   - image: 3-med2.png
     caption: none
-    alt: Puzzle Poesis screengrab
+    alt: Puzzle Poesis medium menu
   - image: 4-small1.png
     caption: none
-    alt: Puzzle Poesis screengrab
+    alt: Puzzle Poesis small menu
   - image: 4-small2.png
     caption: none
-    alt: Puzzle Poesis screengrab
+    alt: Puzzle Poesis small menu

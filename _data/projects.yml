@@ -1,7 +1,7 @@
 # Portfolio project data
 
 - name: Take Back the Archive
-  order: 4
+  order: 2
   date: Summer/Fall 2017
   role: Web design - administrative timeline, collections page, item detail page
   description: >-
@@ -22,7 +22,7 @@
     - https://github.com/kbdonnally/TBTA-timeline
 
 - name: Mapping Lowell
-  order: 2
+  order: 3
   date: Spring/Summer 2018
   role: Web design - menu, homepage, *Mapping Lowell* exhibit
   description: >-
@@ -54,7 +54,7 @@
     - https://github.com/scholarslab/scholarslab.org
 
 - name: Puzzle Poesis
-  order: 3
+  order: 4
   date: Fall 2018
   role: Web design - interactive Tetris-style top menu
   description: >-

@@ -32,7 +32,7 @@ permalink: /projects/
 					{% if pic.path contains project.folder and pic.extname == '.png' %}
 					<li class="proj-pics__pic">
 						<img src="{{ pic.path | relative_url }}" alt="{{ project.name }} screengrab" height="200px" title="{{ pic.path}}">
-						<span>Caption goes here</span>
+						<!--span>Caption goes here</span-->
 					</li>
 					{% endif %}
 					{% endfor %}

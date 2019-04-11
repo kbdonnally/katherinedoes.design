@@ -2,7 +2,9 @@
 # Object names == folder names of screenshots
 # Folder names == property in project YAML
 
-slabdotorg:
+- folder: slabdotorg
+  order: 1
+  pics:
   - image: 1-home.png
     caption: none
     alt: Scholars' Lab homepage
@@ -25,7 +27,9 @@ slabdotorg:
     caption: none
     alt: Scholars' Lab events page
 
-takeback:
+- folder: takeback
+  order: 2
+  pics:
   - image: 1-admin.png
     caption: none
     alt: TBTA administrative timeline landing page
@@ -45,7 +49,9 @@ takeback:
     caption: none
     alt: TBTA collection - gallery
 
-lowell:
+- folder: lowell
+  order: 3
+  pics:
   - image: 1-home.png
     caption: none
     alt: Mapping Lowell homepage
@@ -59,7 +65,9 @@ lowell:
     caption: none
     alt: Mapping Lowell homepage - text
 
-puzzle:
+- folder: puzzle
+  order: 4
+  pics:
   - image: 1-bigplain.png
     caption: none
     alt: Puzzle Poesis full-size menu

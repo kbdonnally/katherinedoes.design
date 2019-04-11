@@ -1,11 +1,11 @@
 # 1. metadata
-title: Katherine Donnally Designs Things
-baseurl: "/portfolio-1"
+title: Katherine Donnally Designs
+baseurl: "/katherinedoes.design"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 description: >- 
-  Jekyll website corresponding to `portfolio` repo's docs
-  & planning.
+  Design website for portfolio & freelance signups.
+  Documentation found on `katherinedoes.docs` repo.
 
 # 2. build settings
 incremental: true

@@ -1,7 +1,7 @@
 <!-- nav menu: -->
 <ul class="nav-wrapper">
 {% for page in site.pages %}
-{% if page.layout and page.path contains 'pages' %}
+{% if page.layout and page.path contains 'pages/real' %}
 	<li class="nav-item"><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}

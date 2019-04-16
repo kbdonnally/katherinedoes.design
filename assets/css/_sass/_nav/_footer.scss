@@ -1,1 +1,31 @@
 /* Footer Styles: */
+
+.footer-wrapper {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background-color: $halfgray;
+}
+
+.footer-title {
+
+}
+
+// ul
+.footer-list {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	padding-left: 0;
+}
+
+// li
+.footer-list__item {
+	list-style-type: none;
+	a {
+		color: $textgray;
+	}
+}

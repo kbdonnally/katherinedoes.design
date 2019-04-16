@@ -1,1 +1,25 @@
 /* Navigation Styles: */
+
+// ul
+.nav-wrapper {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 0;
+}
+
+// li
+.nav-item {
+	list-style-type: none;
+	padding: 0 1em;
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		color: $halfgray;
+		transition: .3s color, .3s border;
+		&:hover, &:focus {
+			color: $textgray;
+			border-bottom: 1px solid $textgray;
+		}
+	}
+}

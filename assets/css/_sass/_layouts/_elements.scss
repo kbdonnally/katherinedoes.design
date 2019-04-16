@@ -71,6 +71,17 @@ h4 {
 
 p, ul, ol, li, blockquote {  }
 
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: $halfgray;
+	transition: .3s color, .3s border;
+	&:hover, &:focus {
+		color: $textgray;
+		border-bottom: 1px solid $textgray;
+	}
+}
+
 blockquote {
 	color: $halfgray;
 }

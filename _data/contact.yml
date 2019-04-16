@@ -1,10 +1,22 @@
 # contact info
-email:
-  username: kbdonnally@gmail.com
+
+# email
+- username: kbdonnally@gmail.com
   url: 'mailto:kbdonnally@gmail.com'
-twitter:
-  username: '@kbdonnally'
+  img: 'assets/img/svg/envelope-outline-black.svg'
+  type: email
+  order: 1
+
+# twitter
+- username: '@kbdonnally'
   url: https://twitter.com/kbdonnally
-github:
-  username: kbdonnally
+  img: 'assets/img/svg/twitter-black.svg'
+  type: twitter
+  order: 3
+
+# github
+- username: kbdonnally
   url: https://github.com/kbdonnally
+  img: 'assets/img/svg/github-black.svg'
+  type: github
+  order: 2

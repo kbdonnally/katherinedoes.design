@@ -1,0 +1,8 @@
+<!-- nav menu: -->
+<ul class="nav-wrapper">
+{% for page in site.pages %}
+{% if page.layout and page.path contains 'pages' %}
+	<li class="nav-item"><a title="{{ page.path }}" href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>

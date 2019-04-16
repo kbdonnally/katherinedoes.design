@@ -23,7 +23,7 @@ layout: default
 
 ## See my work
 
-- Link to project page
+- Link to [project page]({{site.baseurl}}/projects/)
 - Hire me!
 
 # Katherine Donnally

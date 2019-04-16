@@ -1,7 +1,23 @@
 /* Navigation Styles: */
 
+// outer wrapper
+nav.nav-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+// home link
+section.nav-home-link {
+	padding: 0 1em;
+	align-self: center;
+	a {
+
+	}
+}
+
 // ul
-.nav-wrapper {
+.nav-list-wrapper {
 	position: relative;
 	display: flex;
 	flex-flow: row wrap;
@@ -9,7 +25,7 @@
 }
 
 // li
-.nav-item {
+.nav-list__item {
 	list-style-type: none;
 	padding: 0 1em;
 	a {

@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 layout: default
-permalink: /portfolio/
+permalink: /portfolio-old/
 ---
 
 # Portfolio

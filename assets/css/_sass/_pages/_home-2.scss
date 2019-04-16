@@ -1,0 +1,24 @@
+// delete _home.scss styles when have a chance!
+// peep to make sure nothin' you wanna nab
+
+// ul
+.home-contact__list {
+	padding-left: 0;
+}
+
+// li
+.home-contact__item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 2rem;
+	margin: .5rem 0;
+	list-style-type: none;
+	img {
+		height: 2em;
+		padding-right: 2em;
+	}
+	a {
+
+	}
+}

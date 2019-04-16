@@ -2,6 +2,7 @@
 title: About
 layout: default
 permalink: /about/
+menu: true
 ---
 
 <div class="home-wrapper">

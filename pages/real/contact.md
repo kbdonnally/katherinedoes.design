@@ -2,6 +2,7 @@
 title: Contact
 layout: default
 permalink: /contact/
+menu: true
 ---
 
 # Contact

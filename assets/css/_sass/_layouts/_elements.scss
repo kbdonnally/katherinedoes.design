@@ -2,7 +2,7 @@
 
 /* --------------- 1. Font Sizes ----------------- */
 
-p, ul, ol, li, blockquote {
+p, ul, ol, li, blockquote, section, nav, footer {
 	@media screen and (min-width: 900px) {
 		font-size: 1.0625rem;
 	}

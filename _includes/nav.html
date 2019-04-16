@@ -1,8 +1,13 @@
 <!-- nav menu: -->
-<ul class="nav-wrapper">
-{% for page in site.pages %}
-{% if page.layout and page.path contains 'pages/real' %}
-	<li class="nav-item"><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
+<nav class="nav-wrapper">
+	<section class="nav-home-link">
+		<a href="{{ site.url}}{{ site.baseurl}}/">Home</a>
+	</section>
+	<ul class="nav-list-wrapper">
+	{% for page in site.pages %}
+	{% if page.layout and page.path contains 'pages/real' %}
+		<li class="nav-list__item"><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</nav>

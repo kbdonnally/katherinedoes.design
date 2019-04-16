@@ -67,7 +67,26 @@ h4 {
 	font-size: 1.125rem;
 }
 
-/* --------------- 2. Element Styles ----------------- */
+/* --------------- 2. Page Structures ----------------- */
+
+// wraps {{ content }} in default.html
+main.main-content-wrapper {
+	position: relative;
+	padding: 0 8.33%;
+	max-width: calc(800px + 16.67%);
+		margin: 0 auto;
+	@media screen and (max-width: 400px) {
+		padding: 0 4.167%;
+	}
+	@media (min-width: 768px) and (max-width: 900px) {
+		padding: 0 4.167%;
+	}
+	@media screen and (min-width: 1200px) {
+		// add big-screen styles here if find need
+	}
+}
+
+/* --------------- 3. Element Styles ----------------- */
 
 p, ul, ol, li, blockquote {  }
 

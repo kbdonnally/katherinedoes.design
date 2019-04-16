@@ -2,16 +2,21 @@
 
 .footer-wrapper {
 	position: relative;
+	margin: 0;
+	padding: 1.5em;
+	background-color: $halfgray;
+}
+
+.footer-border {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	margin: 0;
-	background-color: $halfgray;
+	border: 1px solid #f0f0f0;
 }
 
 .footer-title {
-
+	color: #f0f0f0;
 }
 
 // ul
@@ -27,5 +32,6 @@
 	list-style-type: none;
 	a {
 		color: $textgray;
+		border-bottom: 1px solid $textgray;
 	}
 }

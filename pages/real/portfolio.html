@@ -19,7 +19,7 @@ menu: true
 		{% for project in projects %}
 		<!-- for proj in projects -->
 		<section class="proj-gallery__item"> <!-- 1 project -->
-			<h2 class="proj-item__title"><a href="{{ project.link }}">{{ project.name }}</a></h2>
+			<h2 class="proj-item__title"><span>{{forloop.index}}.</span> {{ project.name }} // <em>{{ project.short-role }}</em></h2>
 			<p class="proj-item__date"><em>{{ project.date }}</em></p>
 
 			<!-- pics: -->
@@ -45,7 +45,7 @@ menu: true
 			<!-- metadata: -->
 			<ul class="proj-item__metadata">
 				<li><span>Role:</span> {{ project.role | markdownify }}</li>
-				<li><span>Creators:</span> <p>{% for creator in project.creators %} {% if forloop.last %} {{ creator }} {% else %} {{ creator }}, {% endif %} {% endfor %}</p></li> <!-- <p> b/c markdownify filter adds it; want consistent styles -->
+				<li><span>Link:</span> <p><a href="{{ project.link }}">{{ project.name }}</a></p></li> <!-- <p> b/c markdownify filter adds it; want consistent styles -->
 				<li><span>About:</span> {{ project.description | markdownify }}</li>
 			</ul> <!-- end metadata -->
 

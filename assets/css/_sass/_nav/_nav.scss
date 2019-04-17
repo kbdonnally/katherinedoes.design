@@ -31,7 +31,7 @@ section.nav-home-link {
 	a {
 		text-decoration: none;
 		font-weight: bold;
-		color: $halfgray;
+		color: $grayblue;
 		transition: .3s color, .3s border;
 		&:hover, &:focus {
 			color: $textgray;

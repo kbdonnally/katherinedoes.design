@@ -4,7 +4,7 @@
 	position: relative;
 	margin: 0;
 	padding: 1.5em;
-	background-color: $halfgray;
+	background-color: $grayblue;
 }
 
 .footer-border {
@@ -12,11 +12,11 @@
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid #f0f0f0;
+	border: 1px solid $antiflashwhite;
 }
 
 .footer-title {
-	color: #f0f0f0;
+	color: $antiflashwhite;
 }
 
 // ul
@@ -31,7 +31,7 @@
 .footer-list__item {
 	list-style-type: none;
 	a {
-		color: $textgray;
-		border-bottom: 1px solid $textgray;
+		color: $regblack;
+		border-bottom: 1px solid $regblack;
 	}
 }

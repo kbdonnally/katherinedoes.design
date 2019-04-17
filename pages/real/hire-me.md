@@ -8,6 +8,14 @@ Looking for an awesome designer on your next project?
 
 ## Here's how to hire me.
 
+### My main offerings
+
+- Designs personal and organization websites
+- Something from scratch or spiff up your existing website
+- Also available for special project sites and exhibit creation, particularly for academic and justice-oriented needs. 
+
+*Wondering if we're a good match? Check out the info below, or shoot me an email directly at [kbdonnally@gmail.com]({{ site.data.contact.email.url }}).*
+
 ### Getting started, finding information
 
 Two main ways to explore the information on what we might contract to do&mdash;choose what feels most natural for your situation; there's no right or wrong answer!

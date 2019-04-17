@@ -4,17 +4,10 @@ layout: default
 
 # Katherine Donnally
 
-## Web designer specializing in personal website design. <!-- Custom code maverick & CSS artist. --> Let's explore what aesthetics can do when we leave respectability politics behind. <!-- come figure out what you like with me. -->
+{:.home__subtitle}
+## Web designer specializing in from-scratch personal website design, organization site design, &amp; project-oriented websites. <br/><br/> Let's explore what aesthetics can do when we leave respectability politics behind.
 
-
-### My main offerings
-
-- Designs personal and organization websites
-- Something from scratch or spiff up your existing website
-- Also available for special project sites and exhibit creation, particularly for academic and justice-oriented needs. 
-
-*Wondering if we're a good match? Check out the info below, or shoot me an email directly at [kbdonnally@gmail.com]({{ site.data.contact.email.url }}).*
-
+*NB: do a "who I am/who you are" thing here. "Good sites are supposed to be kind of... boring, right?"*
 
 ### Getting started, matching up
 

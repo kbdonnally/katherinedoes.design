@@ -3,18 +3,30 @@
 // idea: sort by color wheel degrees :D
 
 $textgray: 		 hsla(0, 0%, 20%, 1);
+$jet: 			 hsla(0, 0%, 20%, 1);
 $halfgray: 		 hsla(0, 0%, 50%, 1);
 
 // Coolors Scheme 4:
-$isabelline: 	 hsla(352, 43%, 93%, 1);
-$jet: 			 hsla(0, 0%, 20%, 1);
+$regblack: 		 hsla(132, 100%, 1%, 1);
 $antiflashwhite: hsla(197, 24%, 94%, 1);
-$black: 		 hsla(132, 100%, 1%, 1);
 $grayblue: 		 hsla(228, 15%, 63%, 1);
+$isabelline: 	 hsla(352, 43%, 93%, 1);
 
 // KEY:
-// isabelline - light pink
-// jet - 20% gray, $textgray
+// isabelline - 	light pink
+// jet - 			20% gray
 // antiflashwhite - gray off white
-// black - registration black
-// grayblue - your favorite Tombow marker
+// black - 			registration black
+// grayblue - 		your favorite Tombow marker
+
+// COLOR WHEEL:
+// red: 	0;
+// yellow: 	60;
+// green: 	120;
+// teal: 	180;
+// blue: 	240;
+// magenta: 300;
+//
+// red-----teal
+// yellow--blue
+// green---magenta

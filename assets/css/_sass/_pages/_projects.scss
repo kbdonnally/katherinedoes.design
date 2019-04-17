@@ -80,11 +80,8 @@
 	display: flex;
 	flex-flow: column nowrap;
 	img {
-
-	}
-	// caption
-	span {
-
+		margin: .25em;
+		box-shadow: 0 0 2px 0 hsla(0,0,0,.15);
 	}
 }
 

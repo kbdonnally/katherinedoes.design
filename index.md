@@ -7,7 +7,7 @@ layout: default
 {:.home__subtitle}
 ## Web designer specializing in from-scratch personal website design, organization site design, &amp; project-oriented websites. <br/><br/> Let's explore what aesthetics can do when we leave respectability politics behind.
 
-*NB: do a "who I am/who you are" thing here. "Good sites are supposed to be kind of... boring, right?"*
+*NB: do a "who I am/who you are" thing here.*
 
 ### Getting started, matching up
 

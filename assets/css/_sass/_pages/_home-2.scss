@@ -1,6 +1,12 @@
 // delete _home.scss styles when have a chance!
 // peep to make sure nothin' you wanna nab
 
+.home__subtitle {
+	@media screen and (max-width: 600px) {
+		font-size: 1.5rem;
+	}
+}
+
 // ul
 .home-contact__list {
 	padding-left: 0;

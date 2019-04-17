@@ -74,12 +74,12 @@
   - image: 2-med1.png
     caption: none
     alt: Puzzle Poesis medium menu
-  - image: 3-med2.png
-    caption: none
-    alt: Puzzle Poesis medium menu
-  - image: 4-small1.png
-    caption: none
-    alt: Puzzle Poesis small menu
+ # - image: 3-med2.png
+ #   caption: none
+ #   alt: Puzzle Poesis medium menu
+  # - image: 4-small1.png
+   # caption: none
+   # alt: Puzzle Poesis small menu
   - image: 4-small2.png
     caption: none
     alt: Puzzle Poesis small menu

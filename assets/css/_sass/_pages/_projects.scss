@@ -34,7 +34,9 @@
 /* Title: */
 
 .proj-item__title {
-
+	em {
+		color: $halfgray;
+	}
 }
 
 /* Date: */

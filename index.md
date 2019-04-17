@@ -7,8 +7,6 @@ layout: default
 ## Web designer specializing in personal website design. <!-- Custom code maverick & CSS artist. --> Let's explore what aesthetics can do when we leave respectability politics behind. <!-- come figure out what you like with me. -->
 
 
-## About
-
 ### My main offerings
 
 - Designs personal and organization websites
@@ -41,11 +39,14 @@ Your website should reflect *you*, and I highly encourage having fun with your r
 
 I look forward to hearing from you and working together. :) *- KD*
 
+<section class="home__work" markdown="1">
 ## See my work
 
 - Link to [project page]({{site.baseurl}}/projects/)
 - [Hire me!]({{site.baseurl}}/intake/)
+</section>
 
+<section class="home__contact" markdown="1">
 ## Contact
 
 {% assign contacts = site.data.contact | sort: 'order' %}
@@ -57,3 +58,4 @@ I look forward to hearing from you and working together. :) *- KD*
 </li>
 {% endfor %}
 </ul>
+</section>

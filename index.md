@@ -8,7 +8,7 @@ layout: default
 {:.home__subtitle}
 ## Web designer, specializing in from-scratch personal website design &amp; project-oriented websites. <br/><br/> Let's explore what aesthetics can be when we leave respectability politics behind.
 
-### Hiring my services
+### Let's work together
 
 Step 1: Use this guided [contact form]({{site.url}}{{site.baseurl}}/contact/) to fill out and submit your information.
 

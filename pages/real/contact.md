@@ -16,5 +16,3 @@ menu: true
 </li>
 {% endfor %}
 </ul>
-
-*Plus add link for intake form. - 4/16/19*

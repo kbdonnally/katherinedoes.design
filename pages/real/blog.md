@@ -2,7 +2,7 @@
 title: Blog
 layout: default
 permalink: /blog/
-menu: true
+menu: false
 ---
 
 # Blog

@@ -9,12 +9,24 @@ permalink: /intake/
 ## From iPad: 5/12/19:
 
 1. Name & other contact information
-2. Budget for project
+    - First name
+    - Last name
+    - Company name (if applicable)
+    - Preferred email address
+    - Preferred phone number
+2. Logistics
+    - What is your estimated budget for this project?
+        - Give options to choose
+    - How soon do you need the new website completed?
+    - What is your current or intended website address?
+        - Give options for if they don't have one yet & what to do about it.
 3. Info about project
     - What the website is
+        - Lifted: In short, what this project is about?
     - Who it's for
         - Ideal audience (who's clicking on the page and what are they looking to do?)
     - What work needs done
+        - How many pages? What pages?
     - What you want out of it
     - Dates or other time requirements
     - Main contact person

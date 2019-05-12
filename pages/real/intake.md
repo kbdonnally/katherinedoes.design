@@ -6,10 +6,31 @@ permalink: /intake/
 
 # Intake Form
 
-*Create contents for quiz where people can figure out what it is they need.*
+## From iPad: 5/12/19:
 
-*Available as 'menu' form too - both should take you to the contact form and the quiz should be able to enter your results in it so people don't even have to report it to you.*
+1. Name & other contact information
+2. Budget for project
+3. Info about project
+    - What the website is
+    - Who it's for
+        - Ideal audience (who's clicking on the page and what are they looking to do?)
+    - What work needs done
+    - What you want out of it
+    - Dates or other time requirements
+    - Main contact person
+4. Extras
+    - Other websites you like
+    - Logo/browser icon
+    - Color palette
+    - Vibe
+    - Best way to get in touch & when
 
+*Only big thing I would change from the other intake forms' wording is noting that not all the questions have to be answered - we can talk about them IRL once we meet, I just need info on parts 1, 2, and 3 to get started talking.*
+
+***
+
+{: style="max-width: 800px;"}
+```
 ## Quiz Contents Draft (4/17/19):
 
 1. Do you have a...
@@ -32,7 +53,7 @@ permalink: /intake/
 7. What is your budget for this project?
 8. Any dates by which part of this project absolutely must be finished? If so, when?
 9. How would you describe the purpose of your website, including any purpose you'd like it to fulfill when this project is over but it's not currently fulfilling?
-
+```
 ***
 
 ### Specifications

@@ -14,28 +14,55 @@ permalink: /intake/
     - Company name (if applicable)
     - Preferred email address
     - Preferred phone number
+    - What's the best way to contact you?
+        - Email
+        - Text message
+    - How would you like to have our initial meeting for the project?
+        - I prefer Skype.
+        - I prefer phone call.
+        - I prefer email.
 2. Logistics
     - What is your estimated budget for this project?
-        - Give options to choose
-    - How soon do you need the new website completed?
-    - What is your current or intended website address?
-        - Give options for if they don't have one yet & what to do about it.
+        - $2,000 or less
+        - $2,000 to $4,000
+        - $4,000 to $8,000
+        - $8,000 or more
+    - How soon does the new website need to launch? Please note any important dates, if relevant.
+    - What is your current web address, if you have one?
 3. Info about project
-    - What the website is
-        - Lifted: In short, what this project is about?
-    - Who it's for
-        - Ideal audience (who's clicking on the page and what are they looking to do?)
-    - What work needs done
-        - How many pages? What pages?
-    - What you want out of it
-    - Dates or other time requirements
-    - Main contact person
-4. Extras
-    - Other websites you like
-    - Logo/browser icon
+    - Describe what this project will be about. Broadly, what should be different about your website than now? Why?
+        - Changed it to: Describe what this project will be about. What should be different about your website by the end of this project? Why?
+    - Approximately how many pages or sections will the project consist of? 
+    - What pages, if you know? Check all that apply below. This is by no means binding&mdash;it just gives me an idea of the scope of the project:
+        - Home page
+        - Top navigation
+        - Footer
+        - About
+        - Contact
+        - Blog
+        - Blog post design
+        - Portfolio, gallery, &/or projects page
+        - Exhibit (e.g. interactive maps, etc.)
+        - Events
+        - Staff page
+        - Site map
+        - Other (please describe)
+    - When you picture the ideal visitors to your website, who's clicking on your page? What are they looking to do on the site?
+    - Identify 2-4 websites you like (colors, style, general message) similar to how you'd like your own to look. Give a sentence or two on what you like about each.
+4. Style questions
+    - Do you have a preferred color palette? If not, what is your color preference?
+    - Do you have a logo, browser icon, or other graphics you'll be using?
+5. Optional (talk about during meeting)
     - Color palette
+        - Do you have a preferred color palette?
+        - If not, do you have a color preference?
     - Vibe
-    - Best way to get in touch & when
+        - What's the style & feel you'd like for your website?
+            - (E.g. Students, readers, customers, male, female, younger, older, adventurous, reserved, artsy, traditional...)
+            - Ideal audience (who's clicking on the page and what are they looking to do?)
+        - What do you want people to think when they first log on?
+        - what kind of vibe are you going for? What do you want people thinking when they log on? How is it different from what they're thinking now?
+        - Your new site: the importance of first impression is paramount. How should visitors describe your new site? (Examples: modern, user friendly, bold, corporate, fun, forward thinking, innovative, bright, calming, elegant, clean, minimal, etc.)
 
 *Only big thing I would change from the other intake forms' wording is noting that not all the questions have to be answered - we can talk about them IRL once we meet, I just need info on parts 1, 2, and 3 to get started talking.*
 

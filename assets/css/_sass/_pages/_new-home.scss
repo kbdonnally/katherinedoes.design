@@ -2,39 +2,78 @@
 
 // Section 0: Wrapper
 
-.home {
+main.home {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 100vh;
+		width: calc(100vw / 6);
+		background-color: $jet;
+
+	}
+}
+
+main.home-content-wrapper {
 	position: relative;
 	display: grid;
+	grid-template-areas: '. name'
+						 '. subhed'
+						 '. info';
+	grid-template-columns: 1fr 5fr;
+	padding: 0 4.167%;
+
 }
 
 // Section 1: Name
 
 .home__name {
-
+	grid-area: name;
+	position: relative;
+	h1 {
+		line-height: 1;
+		margin: .25em 0;
+		padding-bottom: .0625em;
+		font-size: 4rem;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-bottom: 1px solid $halfgray;
+	}
 }
 
 // Section 2: Subheds
 
 .home__subhed {
+	grid-area: subhed;
+	position: relative;
+	display: grid;
+	grid-template-areas: 'one one one one ...'
+						 '... two two two two'
+						 'three three three three three';
 
 }
 
 .home-subhed__one {
-
+	grid-area: one;
 }
 
 .home-subhed__two {
-
+	grid-area: two;
 }
 
 .home-subhed__three {
-
+	grid-area: three;
 }
 
 
 // Section 3: Information
 
 .home__info {
+	grid-area: info;
 
 }
 

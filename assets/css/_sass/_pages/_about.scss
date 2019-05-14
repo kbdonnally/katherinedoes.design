@@ -7,13 +7,23 @@
 }
 
 .about-main-content {
+	padding: 1.5rem 4.167%;
 
 }
 
 // Section 1: Page title
 
 .about__big-title {
-
+	h1 {
+		line-height: 1;
+		margin: .25em 0;
+		padding-bottom: .0625em;
+		font-size: 3.5rem;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-bottom: 1px solid $halfgray;
+	}
 }
 
 // Section 2: Bio
@@ -30,8 +40,12 @@
 
 }
 
+// ul
 .about-bio__links {
-
+	padding-left: 0;
+	li {
+		list-style-type: none;
+	}
 }
 
 // Section 3: Contact
@@ -76,6 +90,10 @@
 
 }
 
+// ul
 .about-hire__content {
-
+	padding-left: 0;
+	li {
+		list-style-type: none;
+	}
 }

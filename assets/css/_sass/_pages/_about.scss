@@ -3,7 +3,18 @@
 // Section 0: Wrapper
 
 .about-wrapper {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 100%;
+		width: calc(100vw / 6);
+		background-color: $jet;
 
+	}
 }
 
 .about-main-content {

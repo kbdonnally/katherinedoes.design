@@ -2,6 +2,7 @@
 title: Intake Form
 layout: default
 permalink: /intake/
+menu: true
 ---
 
 # Intake Form

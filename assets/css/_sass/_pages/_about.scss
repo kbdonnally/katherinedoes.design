@@ -7,6 +7,13 @@
 }
 
 .about-main-content {
+	position: relative;
+	display: grid;
+	grid-template-areas: '. title'
+						 '. bio'
+						 '. contact'
+						 '. hire';
+	grid-template-columns: 1fr 5fr;
 	padding: 1.5rem 4.167%;
 
 }
@@ -14,6 +21,8 @@
 // Section 1: Page title
 
 .about__big-title {
+	grid-area: title;
+	position: relative;
 	h1 {
 		line-height: 1;
 		margin: .25em 0;
@@ -29,6 +38,8 @@
 // Section 2: Bio
 
 .about__bio {
+	grid-area: bio;
+	position: relative;
 
 }
 
@@ -51,7 +62,8 @@
 // Section 3: Contact
 
 .about__contact {
-
+	grid-area: contact;
+	position: relative;
 }
 
 .about-contact__title {
@@ -83,7 +95,8 @@
 // Section 4: Hiring
 
 .about__hire {
-
+	grid-area: hire;
+	position: relative;
 }
 
 .about-hire__title {

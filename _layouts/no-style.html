@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    {% capture fulltitle %}
+      {% if page.title %}{{ page.title | escape | append: " | Katherine Donnally Designs Things" }}{% else %}{{ site.title | escape }}{% endif %}
+    {% endcapture %}
+
+    <title>{{ fulltitle }}</title>
+    <!--meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here"-->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,400i,600,600i,700,700i|Poppins:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}" type="text/css">
+</head>
+
+<body>
+        {{ content }}
+    {% include footer.html %}
+</body>
+
+</html>

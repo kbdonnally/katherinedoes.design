@@ -1,0 +1,15 @@
+<!-- nav menu: -->
+<nav class="vertical-nav-wrapper">
+	<section class="vertical-nav__title">
+		<h2>Menu</h2>
+	</section>
+	<ul class="vertical-nav__list">
+		<li class="nav-list__item"><a href="{{ site.url}}{{ site.baseurl}}/">Home</a></li>
+	{% assign pages = site.pages | sort: 'title' %}
+	{% for page in pages %}
+	{% if page.layout and page.path contains 'real' and page.menu == true %}
+		<li class="nav-list__item"><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</nav>

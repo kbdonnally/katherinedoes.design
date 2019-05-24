@@ -2,6 +2,7 @@
 title: Hire Me
 layout: default
 permalink: /hire-me/
+menu: true
 ---
 
 Looking for an awesome designer on your next project?

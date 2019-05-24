@@ -25,17 +25,18 @@
 	position: relative;
 	padding: 0 4.167%;
 	h2 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		font-weight: 400;
 		line-height: 1;
 		margin: 0;
-		margin-top: 3.5rem;
+		margin-top: calc(3.5rem - 2px);
 		padding-bottom: .25rem;
 		font-family: 'Oswald', sans-serif;
-		color: #ddd;
+		color: $antiflashwhite;
 		text-transform: uppercase;
 		text-align: center;
-		border-bottom: 1px solid $halfgray;
+		letter-spacing: 2px;
+		border-bottom: 2px solid $halfgray;
 	}
 	@media screen and (max-width: 899px) {
 		h2 {
@@ -67,7 +68,7 @@
 		font-size: 1rem;
 		font-weight: 400;
 		line-height: 1;
-		color: hsl(0,0,60%);
+		color: $grayblue--light; // hsl(0,0,60%);
 		text-transform: uppercase;
 		&:hover, &:focus {
 			color: $antiflashwhite;

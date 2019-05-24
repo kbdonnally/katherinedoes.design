@@ -1,22 +1,30 @@
 /* Projects Page: */
 
 /* Content wrapper: */
-.page--projects {
+.projects-wrapper {
 
+}
+
+.projects-main-content {
+	position: relative;
+	padding: 1.5rem 4.167%;
 }
 
 /* Header: */
 
-.projects-header {
-
-}
-
-.proj-header__caption {
-
-}
-
-.proj-header__page-title {
-
+.projects__big-title {
+	padding-bottom: 1.5rem;
+	padding-top: 1px; // makes up for border
+	h1 {
+		line-height: 1;
+		margin: .25em 0;
+		padding-bottom: .0625em;
+		font-size: 3.5rem;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-bottom: 1px solid $halfgray;
+	}
 }
 
 /* Projects Gallery: */

@@ -1,58 +1,59 @@
 ---
 title: Portfolio
-layout: default
+layout: no-style
 permalink: /portfolio/
 menu: true
 ---
+<main class="projects-wrapper">
+	<main class="projects-main-content">
+		<header class="projects__big-title">
+			<!--span class="proj-header__caption">A selection of</span-->
+			<h1>Portfolio</h1>
+		</header>
 
-<main class="page--projects">
-	<header class="projects-header">
-		<span class="proj-header__caption">A selection of</span>
-		<h1 class="proj-header__page-title">Projects</h1>
-	</header>
+		<main class="projects-gallery"> <!-- projects wrapper -->
 
-	<main class="projects-gallery"> <!-- projects wrapper -->
+			{% assign projects = site.data.projects | sort: 'order' %}
+			{% assign images = site.data.images | sort: 'order' %}
 
-		{% assign projects = site.data.projects | sort: 'order' %}
-		{% assign images = site.data.images | sort: 'order' %}
+			{% for project in projects %}
+			<!-- for proj in projects -->
+			<section class="proj-gallery__item"> <!-- 1 project -->
+				<h2 class="proj-item__title"><span>{{ project.name }}</span> <em> // {{ project.short-role }}</em></h2>
 
-		{% for project in projects %}
-		<!-- for proj in projects -->
-		<section class="proj-gallery__item"> <!-- 1 project -->
-			<h2 class="proj-item__title"><span>{{ project.name }}</span> <em> // {{ project.short-role }}</em></h2>
+				<!-- pics: -->
+				<main class="proj-item__pics">
 
-			<!-- pics: -->
-			<main class="proj-item__pics">
+					<ul class="proj-pics__pics-wrapper">
+						{% for proj in images %} <!-- look at all image objects -->
+						{% if proj.order == project.order %} <!-- pick the one matching current order -->
+						{% for pic in proj.pics %} <!-- loop through all listed pics -->
+						<li class="proj-pics__pic">
+							<img
+							src="{{ 'assets/img/screenshots/' | append: proj.folder | append: '/' | append: pic.image | relative_url }}"
+							alt="{{ pic.alt }}"
+							height="200px" title="{{ pic.image }} // {{ pic.alt }}"
+							aria-label="{{ pic.alt }}"> <!-- end img tag -->
+						</li>
+						{% endfor %}
+						{% endif %}
+						{% endfor %}
+					</ul>
+				</main> <!-- end pics -->
 
-				<ul class="proj-pics__pics-wrapper">
-					{% for proj in images %} <!-- look at all image objects -->
-					{% if proj.order == project.order %} <!-- pick the one matching current order -->
-					{% for pic in proj.pics %} <!-- loop through all listed pics -->
-					<li class="proj-pics__pic">
-						<img
-						src="{{ 'assets/img/screenshots/' | append: proj.folder | append: '/' | append: pic.image | relative_url }}"
-						alt="{{ pic.alt }}"
-						height="200px" title="{{ pic.image }} // {{ pic.alt }}"
-						aria-label="{{ pic.alt }}"> <!-- end img tag -->
-					</li>
-					{% endfor %}
-					{% endif %}
-					{% endfor %}
-				</ul>
-			</main> <!-- end pics -->
+				<!-- metadata: -->
+				<p class="proj-item__date"><em>{{ project.date }}</em></p>
+				<ul class="proj-item__metadata">
+					<li><span>Role:</span> {{ project.role | markdownify }}</li>
+					<li><span>About:</span> {{ project.description | markdownify }}</li>
+					<li><span>Link:</span> <p><a href="{{ project.link }}">{{ project.name }}</a></p></li> <!-- <p> b/c markdownify filter adds it; want consistent styles -->
+				</ul> <!-- end metadata -->
 
-			<!-- metadata: -->
-			<p class="proj-item__date"><em>{{ project.date }}</em></p>
-			<ul class="proj-item__metadata">
-				<li><span>Role:</span> {{ project.role | markdownify }}</li>
-				<li><span>About:</span> {{ project.description | markdownify }}</li>
-				<li><span>Link:</span> <p><a href="{{ project.link }}">{{ project.name }}</a></p></li> <!-- <p> b/c markdownify filter adds it; want consistent styles -->
-			</ul> <!-- end metadata -->
-
-		</section> <!-- end project -->
-		{% unless forloop.last %}
-		<hr>
-		{% endunless %}
-		{% endfor %}
-	</main> <!-- end gallery -->
-</main> <!-- end page content -->
+			</section> <!-- end project -->
+			{% unless forloop.last %}
+			<hr>
+			{% endunless %}
+			{% endfor %}
+		</main> <!-- end gallery -->
+	</main> <!-- end page content -->
+</main>

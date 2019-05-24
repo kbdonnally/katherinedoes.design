@@ -65,16 +65,27 @@ main.home-content-wrapper {
 
 }
 
+// div
+[class*='home-subhed__'] {
+	h2 {
+		margin: .5rem;
+	}
+}
+
 .home-subhed__one {
 	grid-area: one;
+	color: $medgray;
 }
 
 .home-subhed__two {
 	grid-area: two;
+	color: $medgray;
 }
 
 .home-subhed__three {
 	grid-area: three;
+	color: $darkgray;
+	display: none;
 }
 
 
@@ -90,7 +101,11 @@ main.home-content-wrapper {
 }
 
 .home-info__title {
-
+	h2 {
+		span {
+			color: $grayblue;
+		}
+	}
 }
 
 .home-info__list {

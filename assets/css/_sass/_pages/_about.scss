@@ -4,27 +4,16 @@
 
 .about-wrapper {
 	position: relative;
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: block;
-		height: 100%;
-		width: calc(100vw / 6);
-		background-color: $jet;
-
-	}
 }
 
 .about-main-content {
 	position: relative;
 	display: grid;
-	grid-template-areas: '. title'
-						 '. bio'
-						 '. contact'
-						 '. hire';
-	grid-template-columns: 1fr 5fr;
+	grid-template-areas: 'title'
+						 'bio'
+						 'contact'
+						 'hire';
+	grid-template-columns: 1fr;
 	padding: 1.5rem 4.167%;
 
 }

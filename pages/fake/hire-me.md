@@ -1,8 +1,7 @@
 ---
 title: Hire Me
 layout: default
-permalink: /hire-me/
-menu: true
+permalink: /old-hire-me/
 ---
 
 Looking for an awesome designer on your next project?

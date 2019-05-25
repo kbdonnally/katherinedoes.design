@@ -1,0 +1,45 @@
+---
+title: Contact
+layout: no-style
+permalink: /contact/
+menu: true
+---
+
+<main class="contact-wrapper">
+	<main class="contact-main-content">
+		<section class="contact__big-title">
+			<h1>Contact</h1>
+		</section>
+
+		<section class="contact__contact-list">
+			<h2 class="contact-list__title">Best ways to get in touch</h2>
+
+			{% assign contacts = site.data.contact | sort: 'order' %}
+			<ul class="contact-list__list">
+			{% for contact in contacts %}
+				<li class="contact-list__item">
+					<img alt="{{ contact.type }}" title="{{ contact.type }}" src="{{ contact.img | relative_url }}">
+					<a href="{{ contact.url }}">{{ contact.username }}</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</section>
+
+		<section class="contact__hire">
+			<h2 class="contact-hire__title">Best ways to hire me</h2>
+			<ul class="contact-hire__content">
+				<li>
+					<span>&rsaquo;</span>
+					<strong>Ready with a project?</strong>
+					<span>Fill out the <a href="{{ '/intake' | relative_url}}">Intake Form</a> to get started.</span>
+				</li>
+				<li>
+					<span>&rsaquo;</span>
+					<strong>Want more information?</strong>
+					<span>Check out the <a href="{{ '/hire-me' | relative_url }}">hiring page</a> to learn more.</span>
+				</li>
+			</ul>
+		</section>
+	</main>
+</main>
+

@@ -1,0 +1,23 @@
+/* Contact Styles: */
+
+// ul
+.contact-list__list {
+	padding-left: 0;
+}
+
+// li
+.contact-list__item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 2rem;
+	margin: .5rem 0;
+	list-style-type: none;
+	img {
+		height: 2em;
+		padding-right: 2em;
+	}
+	a {
+
+	}
+}

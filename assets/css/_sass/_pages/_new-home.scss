@@ -20,12 +20,12 @@ body {
 
 // Section 0: Wrapper
 
-main.home {
+.home-wrapper {
 	grid-area: main;
 	position: relative;
 }
 
-main.home-content-wrapper {
+.home-main-content {
 	position: relative;
 	display: grid;
 	grid-template-areas: 'name'

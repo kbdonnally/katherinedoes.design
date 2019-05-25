@@ -4,31 +4,32 @@ layout: no-style
 permalink: /portfolio/
 menu: true
 ---
-<main class="projects-wrapper">
-	<main class="projects-main-content">
-		<header class="projects__big-title">
-			<!--span class="proj-header__caption">A selection of</span-->
+<main class="portfolio-wrapper">
+	<main class="portfolio-main-content">
+		<header class="portfolio__big-title">
 			<h1>Portfolio</h1>
 		</header>
 
-		<main class="projects-gallery"> <!-- projects wrapper -->
+		{% assign projects = site.data.projects | sort: 'order' %}
+		{% assign images = site.data.images | sort: 'order' %}
 
-			{% assign projects = site.data.projects | sort: 'order' %}
-			{% assign images = site.data.images | sort: 'order' %}
+		<main class="portfolio__gallery"> <!-- projects wrapper -->
 
 			{% for project in projects %}
-			<!-- for proj in projects -->
-			<section class="proj-gallery__item"> <!-- 1 project -->
-				<h2 class="proj-item__title"><span>{{ project.name }}</span> <em> // {{ project.short-role }}</em></h2>
+			<section class="portfolio-gallery__item"> <!-- begin project -->
+				<!-- 1. title & role: -->
+				<ul class="portfolio-item__title">
+					<li class="portfolio-title__name"><h2>{{ project.name }}</h2></li>
+					<li class="portfolio-title__role"><h2><em>{{ project.short-role }}</em></h2></li>
+				</ul>
 
-				<!-- pics: -->
-				<main class="proj-item__pics">
-
-					<ul class="proj-pics__pics-wrapper">
+				<!-- 2. pics: -->
+				<section class="portfolio-item__pics">
+					<ul class="portfolio-pics__pics-wrapper">
 						{% for proj in images %} <!-- look at all image objects -->
 						{% if proj.order == project.order %} <!-- pick the one matching current order -->
 						{% for pic in proj.pics %} <!-- loop through all listed pics -->
-						<li class="proj-pics__pic">
+						<li class="portfolio-pics__pic">
 							<img
 							src="{{ 'assets/img/screenshots/' | append: proj.folder | append: '/' | append: pic.image | relative_url }}"
 							alt="{{ pic.alt }}"
@@ -39,19 +40,19 @@ menu: true
 						{% endif %}
 						{% endfor %}
 					</ul>
-				</main> <!-- end pics -->
+				</section>
 
-				<!-- metadata: -->
-				<p class="proj-item__date"><em>{{ project.date }}</em></p>
-				<ul class="proj-item__metadata">
+				<!-- 3. metadata: -->
+				<p class="portfolio-item__date"><em>{{ project.date }}</em></p>
+				<ul class="portfolio-item__metadata">
 					<li><span>Role:</span> {{ project.role | markdownify }}</li>
 					<li><span>About:</span> {{ project.description | markdownify }}</li>
 					<li><span>Link:</span> <p><a href="{{ project.link }}">{{ project.name }}</a></p></li> <!-- <p> b/c markdownify filter adds it; want consistent styles -->
-				</ul> <!-- end metadata -->
-
+				</ul>
 			</section> <!-- end project -->
+
 			{% unless forloop.last %}
-			<hr>
+			<hr> <!-- line break b/t projects -->
 			{% endunless %}
 			{% endfor %}
 		</main> <!-- end gallery -->

@@ -1,18 +1,18 @@
 /* Projects Page: */
 
 /* Content wrapper: */
-.projects-wrapper {
+.portfolio-wrapper {
 
 }
 
-.projects-main-content {
+.portfolio-main-content {
 	position: relative;
 	padding: 1.5rem 4.167%;
 }
 
 /* Header: */
 
-.projects__big-title {
+.portfolio__big-title {
 	padding-bottom: 1.5rem;
 	padding-top: 1px; // makes up for border
 	h1 {
@@ -29,19 +29,19 @@
 
 /* Projects Gallery: */
 
-.projects-gallery {
+.portfolio__gallery {
 
 }
 
 /* Gallery item: */
 
-.proj-gallery__item {
+.portfolio-gallery__item {
 
 }
 
 /* Title: */
 
-.proj-item__title {
+.portfolio-item__title {
 	em {
 		color: $halfgray;
 	}
@@ -49,32 +49,32 @@
 
 /* Date: */
 
-.proj-item__date {
+.portfolio-item__date {
 
 }
 
 /* Images: */
 
-.proj-item__pics {
+.portfolio-item__pics {
 	position: relative;
 }
 
 // div
-.proj-pics__arrow--left {
+.portfolio-pics__arrow--left {
 	left: 0;
 }
 
 // div
-.proj-pics__arrow--right {
+.portfolio-pics__arrow--right {
 	right: 0;
 }
 
-[class*='proj-pics__arrow'] {
+[class*='portfolio-pics__arrow'] {
 	position: absolute;
 }
 
 // ul, pic list wrapper
-.proj-pics__pics-wrapper {
+.portfolio-pics__pics-wrapper {
 	position: relative;
 	display: flex;
 	flex-flow: row wrap; // delete later
@@ -83,7 +83,7 @@
 }
 
 // li, pic + caption
-.proj-pics__pic {
+.portfolio-pics__pic {
 	position: relative;
 	display: flex;
 	flex-flow: column nowrap;
@@ -96,7 +96,7 @@
 /* Metadata: */
 
 // ul
-.proj-item__metadata {
+.portfolio-item__metadata {
 	padding-left: 0;
 	li {
 		position: relative;

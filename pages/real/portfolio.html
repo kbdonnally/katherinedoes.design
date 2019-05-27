@@ -6,6 +6,14 @@ menu: true
 ---
 
 <main class="portfolio-wrapper">
+	<div class="portfolio-modal">
+		<div class="portfolio-modal__button">&times;</div>
+		<section class="portfolio-modal__pic-wrapper">
+			<img class="portfolio-modal__img" src="" alt="">
+			<p class="portfolio-modal__caption">
+		</section>
+	</div>
+
 	<main class="portfolio-main-content">
 		<header class="portfolio__big-title">
 			<h1>Portfolio</h1>
@@ -34,7 +42,8 @@ menu: true
 							<img
 							src="{{ 'assets/img/screenshots/' | append: proj.folder | append: '/' | append: pic.image | relative_url }}"
 							alt="{{ pic.alt }}"
-							height="200px" title="{{ pic.image }} // {{ pic.alt }}"
+							class="portfolio-pics__img"
+							height="300px" title="{{ pic.image }} // {{ pic.alt }}"
 							aria-label="{{ pic.alt }}"> <!-- end img tag -->
 						</li>
 						{% endfor %}

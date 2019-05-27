@@ -1,10 +1,10 @@
 # Portfolio project data
 
-- name: Take Back the Archive
+- name: Take Back the Archive website
   order: 2
   date: Summer/Fall 2017
-  role: Web design - administrative timeline, collections page, item detail page
-  short-role: Web designer, various
+  role: Web designer for an administrative timeline, item collections, item details, & more
+  short-role: Web designer on historical timeline & item collections
   description: >-
     Take Back the Archive is a public history project to
     preserve, visualize, and contextualize the history of
@@ -22,11 +22,11 @@
     - https://github.com/scholarslab/takeback
     - https://github.com/kbdonnally/TBTA-timeline
 
-- name: Mapping Lowell
+- name: Mapping Lowell website
   order: 3
   date: Spring/Summer 2018
   role: Web design - menu, homepage, *Mapping Lowell* exhibit
-  short-role: Menu design, home page, & money exhibit
+  short-role: Web designer on homepage & interactive historical exhibit
   description: >-
     The *Historical Atlas of Lowell* maps the economic,
     political, social, and cultural history of Lowell,
@@ -41,11 +41,11 @@
   github:
     - https://github.com/kbdonnally/mapping-lowell
 
-- name: Scholars' Lab
+- name: Scholars' Lab website redesign
   order: 1
   date: Spring/Summer 2018
   role: Lead designer & information architect on ground-up redesign of organization website
-  short-role: Lead designer of website redesign
+  short-role: Lead designer
   description: >-
     The Scholars' Lab is UVA Library's community lab for the
     practice of experimental scholarship.
@@ -56,11 +56,11 @@
   github:
     - https://github.com/scholarslab/scholarslab.org
 
-- name: Puzzle Poesis
+- name: Puzzle Poesis website
   order: 4
   date: Fall 2018
   role: Web design - interactive Tetris-style top menu
-  short-role: Menu design
+  short-role: Web designer on Tetris-style menu
   description: >-
     UVa's Puzzle Poetry working group aims to treat poems as
     puzzles, isolate the substance of prosody, and apprehend

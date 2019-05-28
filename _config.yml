@@ -1,7 +1,7 @@
 # 1. metadata
 title: Katherine Donnally Designs
-baseurl: "/katherinedoes.design"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "katherinedoes.design" # the base hostname & protocol for your site, e.g. http://example.com
 
 description: >- 
   Design website for portfolio & freelance signups.

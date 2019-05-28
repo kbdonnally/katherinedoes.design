@@ -27,11 +27,21 @@
 		line-height: 1;
 		margin: .25em 0;
 		padding-bottom: .0625em;
-		font-size: 3.5rem;
+		font-size: 2.25rem;
 		font-family: 'Oswald', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		border-bottom: 2px solid $grayblue--light;
+	}
+	@media screen and (min-width: 600px) {
+		h1 {
+			font-size: 2.75rem;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		h1 {
+			font-size: 3.5rem;
+		}
 	}
 }
 
@@ -41,9 +51,14 @@
 	grid-area: subhed;
 	position: relative;
 	display: grid;
-	grid-template-areas: 'one one one one ...'
-						 '... two two two two'
-						 'three three three three three';
+	grid-template-areas: 'one'
+						 'two'
+						 'three';
+	@media screen and (min-width: 768px) {
+		grid-template-areas: 'one one one one ...'
+							 '... two two two two'
+							 'three three three three three';
+	}
 
 }
 
@@ -51,6 +66,10 @@
 [class*='home-subhed__'] {
 	h2 {
 		margin: .5rem;
+		margin-left: 0;
+		@media screen and (max-width: 600px) {
+			font-size: 1.25rem;
+		}
 	}
 }
 

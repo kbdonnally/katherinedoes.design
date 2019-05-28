@@ -130,25 +130,12 @@
 
 /* Images: */
 
+// section
 .portfolio-item__pics {
 	position: relative;
 }
 
-// div
-.portfolio-pics__arrow--left {
-	left: 0;
-}
-
-// div
-.portfolio-pics__arrow--right {
-	right: 0;
-}
-
-[class*='portfolio-pics__arrow'] {
-	position: absolute;
-}
-
-// ul, pic list wrapper
+// ul
 .portfolio-pics__pics-wrapper {
 	position: relative;
 	display: flex;
@@ -157,7 +144,7 @@
 	list-style-type: none;
 }
 
-// li, pic + caption
+// li
 .portfolio-pics__pic {
 	position: relative;
 	display: flex;

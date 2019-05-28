@@ -44,6 +44,10 @@
 .portfolio-modal__img {
 	height: 80vh;
 	box-shadow: 0 2px 4px 2px hsla(0,0,0,.3);
+	@media screen and (orientation: portrait) {
+		width: 100%;
+		height: auto;
+	}
 }
 
 .portfolio-modal__caption {
